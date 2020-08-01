@@ -21,10 +21,17 @@ mvn archetype:generate                                \
 cd my-awesome-project
 mvn clean package exec:exec@npm-watch quarkus:dev
 ```
+## Backend
+Java backend as always in `src/main/java`, nothing new and all maven standars
+
+## Front end
+In this case `src/main/webapp` is the vue project directory, so no specific name
 
 ## Quarkus Guides
 https://quarkus.io/guides/
 
 ## Vue CLI Guide
 https://cli.vuejs.org/guide/
+
+All credits to  Dmytro Chaban	(https://quarkify.net/build-run-and-deploy-vuejs-app-with-quarkus/)
 
